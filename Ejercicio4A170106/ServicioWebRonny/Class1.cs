@@ -12,7 +12,7 @@ namespace ServicioWebRonny
         public decimal numero3 { get; set; }
         public decimal AreaCuadrado()
         {
-            return numero1 * numero2;
+            return numero1 * numero1;
         }
 
         public decimal AreaTriangulo()

@@ -18,11 +18,10 @@ namespace ServicioWebRonny
     {
 
         [WebMethod]
-        public decimal AreaCuadrado(decimal n1, decimal n2)
+        public decimal AreaCuadrado(decimal n1)
         {
             Calcular c = new Calcular();
             c.numero1 = n1;
-            c.numero2 = n2;
             return c.AreaCuadrado();
         }
 
