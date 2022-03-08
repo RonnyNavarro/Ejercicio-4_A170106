@@ -1,0 +1,10 @@
+C:\Users\IPRon\Desktop\SEMESTRE\9no\Servicios web\EJEMPLOS\SW\CLASE\RonnyNavarro\Ejercicio4A170106\ServicioWebRonnyCliente\bin\Debug\ServicioWebRonnyCliente.exe.config
+C:\Users\IPRon\Desktop\SEMESTRE\9no\Servicios web\EJEMPLOS\SW\CLASE\RonnyNavarro\Ejercicio4A170106\ServicioWebRonnyCliente\bin\Debug\ServicioWebRonnyCliente.exe
+C:\Users\IPRon\Desktop\SEMESTRE\9no\Servicios web\EJEMPLOS\SW\CLASE\RonnyNavarro\Ejercicio4A170106\ServicioWebRonnyCliente\bin\Debug\ServicioWebRonnyCliente.pdb
+C:\Users\IPRon\Desktop\SEMESTRE\9no\Servicios web\EJEMPLOS\SW\CLASE\RonnyNavarro\Ejercicio4A170106\ServicioWebRonnyCliente\obj\Debug\ServicioWebRonnyCliente.csproj.AssemblyReference.cache
+C:\Users\IPRon\Desktop\SEMESTRE\9no\Servicios web\EJEMPLOS\SW\CLASE\RonnyNavarro\Ejercicio4A170106\ServicioWebRonnyCliente\obj\Debug\ServicioWebRonnyCliente.Form1.resources
+C:\Users\IPRon\Desktop\SEMESTRE\9no\Servicios web\EJEMPLOS\SW\CLASE\RonnyNavarro\Ejercicio4A170106\ServicioWebRonnyCliente\obj\Debug\ServicioWebRonnyCliente.Properties.Resources.resources
+C:\Users\IPRon\Desktop\SEMESTRE\9no\Servicios web\EJEMPLOS\SW\CLASE\RonnyNavarro\Ejercicio4A170106\ServicioWebRonnyCliente\obj\Debug\ServicioWebRonnyCliente.csproj.GenerateResource.cache
+C:\Users\IPRon\Desktop\SEMESTRE\9no\Servicios web\EJEMPLOS\SW\CLASE\RonnyNavarro\Ejercicio4A170106\ServicioWebRonnyCliente\obj\Debug\ServicioWebRonnyCliente.csproj.CoreCompileInputs.cache
+C:\Users\IPRon\Desktop\SEMESTRE\9no\Servicios web\EJEMPLOS\SW\CLASE\RonnyNavarro\Ejercicio4A170106\ServicioWebRonnyCliente\obj\Debug\ServicioWebRonnyCliente.exe
+C:\Users\IPRon\Desktop\SEMESTRE\9no\Servicios web\EJEMPLOS\SW\CLASE\RonnyNavarro\Ejercicio4A170106\ServicioWebRonnyCliente\obj\Debug\ServicioWebRonnyCliente.pdb

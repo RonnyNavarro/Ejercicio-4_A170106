@@ -17,6 +17,10 @@ namespace ServicioWebRonnyCliente
             InitializeComponent();
         }
 
+        #region PROPIEDADES
+        ServicioWebAreas.WebService1SoapClient ClienteSoap = new ServicioWebAreas.WebService1SoapClient();
+        #endregion
+
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
@@ -35,6 +39,23 @@ namespace ServicioWebRonnyCliente
         private void label9_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            var resultado = ClienteSoap.AreaCuadrado(Convert.ToDecimal(LadoCuadradoTextBox.Text));
+            ResultadoLabel.Text = resultado.ToString(); 
+        }
+
+        private void BotonTriangulo_Click(object sender, EventArgs e)
+        {
+            ResultadoLabel.Text = ClienteSoap.AreaTriangulo(Convert.ToDecimal(BaseTextBox.Text), Convert.ToDecimal(AlturaTextBox.Text)).ToString();
+        }
+
+        private void BotonCirculo_Click(object sender, EventArgs e)
+        {
+            ResultadoLabel.Text = ClienteSoap.AreaCirculo(Convert.ToDecimal(RadioTextBox.Text)).ToString();
+                
         }
     }
 }

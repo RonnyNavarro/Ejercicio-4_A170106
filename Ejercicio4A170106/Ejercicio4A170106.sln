@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServicioWebRonny", "ServicioWebRonny\ServicioWebRonny.csproj", "{273CA7CC-B4D5-4E4F-9CF2-D5996219DF51}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServicioWebRonnyCliente", "ServicioWebRonnyCliente\ServicioWebRonnyCliente.csproj", "{6FE11B09-7C82-4ED2-9F46-CE576808CF0C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{273CA7CC-B4D5-4E4F-9CF2-D5996219DF51} = {273CA7CC-B4D5-4E4F-9CF2-D5996219DF51}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

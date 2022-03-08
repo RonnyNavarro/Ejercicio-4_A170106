@@ -29,50 +29,53 @@ namespace ServicioWebRonnyCliente
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.BotonCuadrado = new System.Windows.Forms.Button();
+            this.BotonTriangulo = new System.Windows.Forms.Button();
+            this.BotonCirculo = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.LadoCuadradoTextBox = new System.Windows.Forms.TextBox();
+            this.BaseTextBox = new System.Windows.Forms.TextBox();
+            this.AlturaTextBox = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
+            this.RadioTextBox = new System.Windows.Forms.TextBox();
+            this.ResultadoLabel = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // button1
+            // BotonCuadrado
             // 
-            this.button1.Location = new System.Drawing.Point(358, 142);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(153, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Calcular Área de Cuadrado";
-            this.button1.UseVisualStyleBackColor = true;
+            this.BotonCuadrado.Location = new System.Drawing.Point(358, 142);
+            this.BotonCuadrado.Name = "BotonCuadrado";
+            this.BotonCuadrado.Size = new System.Drawing.Size(153, 23);
+            this.BotonCuadrado.TabIndex = 0;
+            this.BotonCuadrado.Text = "Calcular Área de Cuadrado";
+            this.BotonCuadrado.UseVisualStyleBackColor = true;
+            this.BotonCuadrado.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // BotonTriangulo
             // 
-            this.button2.Location = new System.Drawing.Point(358, 263);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(153, 23);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Calcular Área del Triángulo";
-            this.button2.UseVisualStyleBackColor = true;
+            this.BotonTriangulo.Location = new System.Drawing.Point(358, 263);
+            this.BotonTriangulo.Name = "BotonTriangulo";
+            this.BotonTriangulo.Size = new System.Drawing.Size(153, 23);
+            this.BotonTriangulo.TabIndex = 1;
+            this.BotonTriangulo.Text = "Calcular Área del Triángulo";
+            this.BotonTriangulo.UseVisualStyleBackColor = true;
+            this.BotonTriangulo.Click += new System.EventHandler(this.BotonTriangulo_Click);
             // 
-            // button3
+            // BotonCirculo
             // 
-            this.button3.Location = new System.Drawing.Point(358, 376);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(153, 23);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Calcular Área del Círculo";
-            this.button3.UseVisualStyleBackColor = true;
+            this.BotonCirculo.Location = new System.Drawing.Point(358, 376);
+            this.BotonCirculo.Name = "BotonCirculo";
+            this.BotonCirculo.Size = new System.Drawing.Size(153, 23);
+            this.BotonCirculo.TabIndex = 2;
+            this.BotonCirculo.Text = "Calcular Área del Círculo";
+            this.BotonCirculo.UseVisualStyleBackColor = true;
+            this.BotonCirculo.Click += new System.EventHandler(this.BotonCirculo_Click);
             // 
             // label1
             // 
@@ -103,27 +106,27 @@ namespace ServicioWebRonnyCliente
             this.label3.Text = "Base:";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
-            // textBox1
+            // LadoCuadradoTextBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(145, 149);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 6;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.LadoCuadradoTextBox.Location = new System.Drawing.Point(145, 149);
+            this.LadoCuadradoTextBox.Name = "LadoCuadradoTextBox";
+            this.LadoCuadradoTextBox.Size = new System.Drawing.Size(100, 20);
+            this.LadoCuadradoTextBox.TabIndex = 6;
+            this.LadoCuadradoTextBox.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // textBox2
+            // BaseTextBox
             // 
-            this.textBox2.Location = new System.Drawing.Point(59, 267);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 7;
+            this.BaseTextBox.Location = new System.Drawing.Point(59, 267);
+            this.BaseTextBox.Name = "BaseTextBox";
+            this.BaseTextBox.Size = new System.Drawing.Size(100, 20);
+            this.BaseTextBox.TabIndex = 7;
             // 
-            // textBox3
+            // AlturaTextBox
             // 
-            this.textBox3.Location = new System.Drawing.Point(218, 265);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 8;
+            this.AlturaTextBox.Location = new System.Drawing.Point(218, 265);
+            this.AlturaTextBox.Name = "AlturaTextBox";
+            this.AlturaTextBox.Size = new System.Drawing.Size(100, 20);
+            this.AlturaTextBox.TabIndex = 8;
             // 
             // label4
             // 
@@ -161,22 +164,21 @@ namespace ServicioWebRonnyCliente
             this.label7.TabIndex = 12;
             this.label7.Text = "Radio:";
             // 
-            // textBox4
+            // RadioTextBox
             // 
-            this.textBox4.Location = new System.Drawing.Point(65, 373);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
-            this.textBox4.TabIndex = 13;
+            this.RadioTextBox.Location = new System.Drawing.Point(65, 373);
+            this.RadioTextBox.Name = "RadioTextBox";
+            this.RadioTextBox.Size = new System.Drawing.Size(100, 20);
+            this.RadioTextBox.TabIndex = 13;
             // 
-            // label8
+            // ResultadoLabel
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(614, 236);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(109, 39);
-            this.label8.TabIndex = 14;
-            this.label8.Text = "label8";
+            this.ResultadoLabel.AutoSize = true;
+            this.ResultadoLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ResultadoLabel.Location = new System.Drawing.Point(614, 236);
+            this.ResultadoLabel.Name = "ResultadoLabel";
+            this.ResultadoLabel.Size = new System.Drawing.Size(0, 39);
+            this.ResultadoLabel.TabIndex = 14;
             // 
             // label9
             // 
@@ -195,21 +197,21 @@ namespace ServicioWebRonnyCliente
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.ResultadoLabel);
+            this.Controls.Add(this.RadioTextBox);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.AlturaTextBox);
+            this.Controls.Add(this.BaseTextBox);
+            this.Controls.Add(this.LadoCuadradoTextBox);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.BotonCirculo);
+            this.Controls.Add(this.BotonTriangulo);
+            this.Controls.Add(this.BotonCuadrado);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -219,21 +221,21 @@ namespace ServicioWebRonnyCliente
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button BotonCuadrado;
+        private System.Windows.Forms.Button BotonTriangulo;
+        private System.Windows.Forms.Button BotonCirculo;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox LadoCuadradoTextBox;
+        private System.Windows.Forms.TextBox BaseTextBox;
+        private System.Windows.Forms.TextBox AlturaTextBox;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.TextBox RadioTextBox;
+        private System.Windows.Forms.Label ResultadoLabel;
         private System.Windows.Forms.Label label9;
     }
 }
