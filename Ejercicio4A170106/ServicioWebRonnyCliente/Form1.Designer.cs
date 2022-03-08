@@ -185,7 +185,7 @@ namespace ServicioWebRonnyCliente
             // 
             this.ResultadoLabel.AutoSize = true;
             this.ResultadoLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ResultadoLabel.Location = new System.Drawing.Point(614, 236);
+            this.ResultadoLabel.Location = new System.Drawing.Point(654, 236);
             this.ResultadoLabel.Name = "ResultadoLabel";
             this.ResultadoLabel.Size = new System.Drawing.Size(0, 39);
             this.ResultadoLabel.TabIndex = 14;
