@@ -18,9 +18,30 @@ namespace ServicioWebRonny
     {
 
         [WebMethod]
-        public string HelloWorld()
+        public decimal AreaCuadrado(decimal n1, decimal n2)
         {
-            return "Hola a todos";
+            Calcular c = new Calcular();
+            c.numero1 = n1;
+            c.numero2 = n2;
+            return c.AreaCuadrado();
         }
+
+        [WebMethod]
+        public decimal AreaTriangulo(decimal n1, decimal n2)
+        {
+            Calcular c = new Calcular();
+            c.numero1 = n1;
+            c.numero2 = n2;
+            return c.AreaTriangulo();
+        }
+
+        [WebMethod]
+        public decimal AreaCirculo(decimal n1)
+        {
+            Calcular c = new Calcular();
+            c.numero1 = n1;
+            return c.AreaCirculo();
+        }
+
     }
 }

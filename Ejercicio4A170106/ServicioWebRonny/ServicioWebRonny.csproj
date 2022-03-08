@@ -71,6 +71,7 @@
     <Content Include="ServicioWebEjercicio4.asmx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ServicioWebEjercicio4.asmx.cs">
       <DependentUpon>ServicioWebEjercicio4.asmx</DependentUpon>
